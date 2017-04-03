@@ -1,0 +1,109 @@
+﻿@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+    ViewBag.Title = "Create Products";
+}
+
+
+<div class="container-fluid">
+
+    <div class="row m-t-30">
+        <div class="col-md-12">
+
+            <div class="panel panel-info">
+                <div class="panel-heading"> Create Product</div>
+                <div class="panel-wrapper" aria-expanded="true">
+                    <div class="panel-body">
+                        <form method="post" enctype="multipart/form-data" action="/Admin/Products/Create">
+                            <div class="form-body">
+                                <h3 class="box-title">Create Product</h3>
+                                <hr>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label class="control-label">Product Name</label>
+                                            <input type="text" class="form-control" data-val="true" data-val-required="The Product Name field is required." id="Products_ProductName" name="Products.ProductName" value="">
+                                        </div>
+                                    </div>
+                                    <!--/span-->
+                                    <div class="col-md-3">
+                                        <div class="form-group">
+                                            <label class="control-label">Unit Price</label>
+                                            <input type="text" class="form-control" data-val="true" data-val-number="The field UnitPrice must be a number." data-val-required="The UnitPrice field is required." id="Products_UnitPrice" name="Products.UnitPrice" value="0">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-3">
+                                        <div class="form-group">
+                                            <label class="control-label">Unit In Stock</label>
+                                            <input type="text" class="form-control" id="Products_UnitsInStock" name="Products.UnitsInStock" value="">
+                                        </div>
+                                    </div>
+                                    <!--/span-->
+                                </div>
+                                <!--/row-->
+                                <!--/row-->
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label class="control-label">Category</label>
+                                            <select class="form-control" tabindex="1" id="Products_CategoryId" name="Products.CategoryId">
+                                                <option>Please select one</option>
+                                                <option value="1">Wear</option>
+                                                <option value="2">Children</option>
+                                                <option value="3">Fashion</option>
+                                                <option value="4">Technology</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <!--/span-->
+                                    <div class="col-md-3">
+                                        <div class="form-group">
+                                            <label class="control-label">Status</label>
+                                            <input data-val="true" data-val-required="The IsActive field is required." id="Products_IsActive" name="Products.IsActive" type="checkbox" value="true">Active
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="form-group">
+                                            <div class="col-sm-6">
+                                                <input type="file" id="Products_ProductImage" name="Products.ProductImage">
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <!--/span-->
+                                </div>
+                                <!--/row-->
+
+                                <h3 class="box-title m-t-30">Product Detail</h3>
+
+                                <div class="row">
+                                    <div class="col-md-12 ">
+                                        <div class="form-group">
+
+                                            <textarea class="form-control" rows="4" id="Products_Details" name="Products.Details"></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!--/row-->
+                                <hr>
+                            </div>
+                            <div class="form-actions m-t-30">
+                                <button type="submit" class="btn btn-success"> <i class="fa fa-check"></i> Save</button>
+                            </div>
+                            <input name="__RequestVerificationToken" type="hidden" value="CfDJ8JtTleRq-w1FlzutVY_FiSColD0t9W35bNYdZxqiWOvHXyWWbZCQenUZxFlSaN-LDgJmBJi3RJ5toFkGVAOkst6Cnk8e80cvetwN7qcbxswRuytyO0wTtYVhnZuuMdWd-HzKZVVOmtMPSO2XoQkKHt4"><input name="Products.IsActive" type="hidden" value="false">
+                        </form>
+                        <div class="validation-summary-valid" data-valmsg-summary="true">
+                            <ul>
+                                <li style="display:none"></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <hr>
+
+</div>

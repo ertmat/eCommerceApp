@@ -1,0 +1,18 @@
+I:\Praca\ertmat\VisualStudio\2017\eCommerceApp\eCommerceApp\bin\Debug\netcoreapp1.1\eCommerceApp.deps.json
+I:\Praca\ertmat\VisualStudio\2017\eCommerceApp\eCommerceApp\bin\Debug\netcoreapp1.1\eCommerceApp.runtimeconfig.json
+I:\Praca\ertmat\VisualStudio\2017\eCommerceApp\eCommerceApp\bin\Debug\netcoreapp1.1\eCommerceApp.runtimeconfig.dev.json
+I:\Praca\ertmat\VisualStudio\2017\eCommerceApp\eCommerceApp\bin\Debug\netcoreapp1.1\eCommerceApp.dll
+I:\Praca\ertmat\VisualStudio\2017\eCommerceApp\eCommerceApp\obj\Debug\netcoreapp1.1\eCommerceApp.csprojResolveAssemblyReference.cache
+I:\Praca\ertmat\VisualStudio\2017\eCommerceApp\eCommerceApp\obj\Debug\netcoreapp1.1\eCommerceApp.AssemblyInfo.cs
+I:\Praca\ertmat\VisualStudio\2017\eCommerceApp\eCommerceApp\bin\Debug\netcoreapp1.1\eCommerceApp.pdb
+I:\Praca\ertmat\VisualStudio\2017\eCommerceApp\eCommerceApp\obj\Debug\netcoreapp1.1\eCommerceApp.dll
+I:\Praca\ertmat\VisualStudio\2017\eCommerceApp\eCommerceApp\obj\Debug\netcoreapp1.1\eCommerceApp.pdb
+C:\Users\ertma\Documents\Visual Studio 2017\Projects\eCommerceApp\eCommerceApp\bin\Debug\netcoreapp1.1\eCommerceApp.deps.json
+C:\Users\ertma\Documents\Visual Studio 2017\Projects\eCommerceApp\eCommerceApp\bin\Debug\netcoreapp1.1\eCommerceApp.runtimeconfig.json
+C:\Users\ertma\Documents\Visual Studio 2017\Projects\eCommerceApp\eCommerceApp\bin\Debug\netcoreapp1.1\eCommerceApp.runtimeconfig.dev.json
+C:\Users\ertma\Documents\Visual Studio 2017\Projects\eCommerceApp\eCommerceApp\bin\Debug\netcoreapp1.1\eCommerceApp.dll
+C:\Users\ertma\Documents\Visual Studio 2017\Projects\eCommerceApp\eCommerceApp\bin\Debug\netcoreapp1.1\eCommerceApp.pdb
+C:\Users\ertma\Documents\Visual Studio 2017\Projects\eCommerceApp\eCommerceApp\obj\Debug\netcoreapp1.1\eCommerceApp.csprojResolveAssemblyReference.cache
+C:\Users\ertma\Documents\Visual Studio 2017\Projects\eCommerceApp\eCommerceApp\obj\Debug\netcoreapp1.1\eCommerceApp.AssemblyInfo.cs
+C:\Users\ertma\Documents\Visual Studio 2017\Projects\eCommerceApp\eCommerceApp\obj\Debug\netcoreapp1.1\eCommerceApp.dll
+C:\Users\ertma\Documents\Visual Studio 2017\Projects\eCommerceApp\eCommerceApp\obj\Debug\netcoreapp1.1\eCommerceApp.pdb

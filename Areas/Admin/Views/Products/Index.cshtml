@@ -1,0 +1,76 @@
+﻿@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+    ViewBag.Title = "Products Index";
+}
+<!-- Page Content -->
+
+
+<div class="container-fluid">
+    <!-- Page Content -->
+
+    <div class="row">
+        <div class="col-md-12">
+            <div class="white-box">
+                <h3 class="box-title">PRODUCTS</h3>
+                <a class="btn btn-success" href="/Admin/Products/Create"><span class="btn btn-label"><i class="fa fa-check"></i></span>Add New Product</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- .row -->
+    <div class="row">
+        <div class="col-md-12">
+            <div class="white-box">
+                <div class="row">
+                    <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
+                        <div class="white-box">
+                            <h3 class="box-title">Products List</h3>
+                            <div class="table-responsive">
+                                <table class="table product-overview">
+                                    <thead>
+                                        <tr>
+                                            <th>Product Name</th>
+                                            <th>Category</th>
+                                            <th>Status</th>
+                                            <th>Actions</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Tshirt 023</td>
+                                            <td>
+                                                <span class="label label-success font-weight-100">Active</span>
+                                            </td>
+                                            <td>
+                                                <a class="text-inverse p-r-10" data-toggle="tooltip" title="" data-original-title="Edit" href="/Admin/Products/Update?id=1"><i class="glyphicon glyphicon-edit"></i></a>
+                                                <a class="text-inverse" title="" data-toggle="tooltip" data-original-title="Delete" href="/Admin/Products/Delete?id=1"><i class="glyphicon glyphicon-trash"></i></a>
+                                            </td>
+
+                                        </tr>
+                                        <tr>
+                                            <td>Tshirt 26</td>
+                                            <td>
+                                                <span class="label label-danger font-weight-100">Deactive</span>
+                                            </td>
+                                            <td>
+                                                <a class="text-inverse p-r-10" data-toggle="tooltip" title="" data-original-title="Edit" href="/Admin/Products/Update?id=2"><i class="glyphicon glyphicon-edit"></i></a>
+                                                <a class="text-inverse" title="" data-toggle="tooltip" data-original-title="Delete" href="/Admin/Products/Delete?id=2"><i class="glyphicon glyphicon-trash"></i></a>
+                                            </td>
+
+                                        </tr>
+
+                                    </tbody>
+                                </table>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /.row -->
+    <!-- /#page-wrapper -->
+    <hr>
+
+</div>
