@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <base href="index.html" />
+    <meta charset="utf-8" />
+    <title>eCommerceApp with Angular 2</title>
+
+    <link href="theme/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+    <link href="theme/css/default.css" rel="stylesheet" />
+    <link href="theme/css/sidebar-nav.min.css" rel="stylesheet" />
+    <link href="theme/css/spinners.css" rel="stylesheet" />
+    <link href="theme/css/style.css" rel="stylesheet" />
+
+    <script src="node_modules/zone.js/dist/zone.js"></script>
+    <script src="node_modules/systemjs/dist/system.src.js"></script>
+    <script src="systemjs.config.js"></script>
+    <script>
+        System.import("app").catch(function (err) { console.error(err); });
+    </script>
+</head>
+<body>
+
+    <my-app>Loading AppComponent content here</my-app>
+
+
+    <script src="theme/lib/jquery/dist/jquery.js"></script>
+    <script src="theme/lib/bootstrap/dist/js/bootstrap.js"></script>
+</body>
+</html>

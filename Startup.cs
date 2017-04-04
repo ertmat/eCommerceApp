@@ -10,6 +10,9 @@ using Microsoft.Extensions.Logging;
 using Microsoft.EntityFrameworkCore;
 using eCommerceApp.Context;
 using eCommerceApp.Entities;
+using Microsoft.Extensions.FileProviders;
+using System.IO;
+using Microsoft.AspNetCore.Http;
 
 namespace eCommerceApp
 {
@@ -56,7 +59,13 @@ namespace eCommerceApp
                 app.UseExceptionHandler("/Home/Error");
             }
 
-            app.UseStaticFiles();
+            //app.UseStaticFiles();
+
+            app.UseStaticFiles(new StaticFileOptions()
+            {
+                FileProvider = new PhysicalFileProvider(Path.Combine(Directory.GetCurrentDirectory(),@"Client")),
+                RequestPath = new PathString("/client")
+            });
 
             app.UseIdentity();
 

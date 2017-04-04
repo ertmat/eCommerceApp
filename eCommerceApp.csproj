@@ -26,6 +26,9 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Areas\Admin\Views\Category\" />
+    <Folder Include="Client\app\components\" />
+    <Folder Include="Client\app\shared\" />
+    <Folder Include="Client\theme\" />
   </ItemGroup>
 
 </Project>
