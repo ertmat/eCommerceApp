@@ -1,14 +1,42 @@
 ﻿<div>
     <div id="wrapper">
+        <!--Sidebar-->
         <div class="md1-navigation">
-            <ul class="sidebar-nav">
-                <li class="sidebar-brand">
-                    <!--<a href="#">-->
-                    E-Commerce System
-                    <!--</a>-->
-                </li>
-
-            </ul>
+            <nav class="md1-navigation">
+                <ul class="sidebar-nav">
+                    <li class="sidebar-brand">
+                        <!--<a href="#">-->
+                        E-Commerce Application
+                        <!--</a>-->
+                    </li>
+                    <li>
+                        <a class="mdl-navigation__link" [routerLink]="['/']">Dashboard</a>
+                    </li>
+                    <li>
+                        <a class="mdl-navigation__link" [routerLink]="['/category']">Add Category</a>
+                    </li>
+                    <li>
+                        <a class="mdl-navigation__link" [routerLink]="['/categories']">List Categories</a>
+                    </li>
+                </ul>
+            </nav>
         </div>
+        <!--/#sidebar-wrapper-->
+        <!--Page Content-->
+        <div id="page-content-wrapper">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12">
+
+                        <flash-messages></flash-messages>
+
+                        <!--Router Outlet-->
+                        <router-outlet></router-outlet>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--/#page-content-wraper-->
     </div>
 </div>
